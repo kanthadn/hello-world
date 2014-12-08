@@ -1,0 +1,79 @@
+.pageContainer{
+max-width : 1200px;
+min-height : 800px;
+height : 800px;
+border : 1px solid;
+width : 100%;
+}
+
+header{
+height : 10%;
+}
+.leftAside{
+float : left;
+width : 20%;
+border : 1px solid;
+height : 80%;
+}
+
+nav {
+background-color: rgba(0,0,0,0.5);
+	border: 1px solid red;
+	border-left: none;
+	border-right: none;
+	height : 100%;
+}
+nav ul{
+
+}
+nav li{
+text-align : center;
+width : 120px;
+float : left;
+list-style : none;
+padding : 10px;
+border-right : 2px dashed red;
+}
+
+nav a {
+font-size : 0.8em;
+text-transform: uppercase;
+color : white;
+text-decoration : none;
+-webkit-transition : font-size;
+transition : font-size;
+}
+
+nav a:hover{
+color :red;
+font-size : 0.9em;
+}
+
+nav li:hover{
+
+}
+
+.rightAside{
+float : left;
+width : 20%;
+border : 1px solid;
+height : 80%;
+}
+
+.main{
+float : left;
+width : 60%;
+height : 80%;
+border : 1px solid;
+}
+
+footer{
+height : 10%;
+clear : both;
+border : 1px solid;
+}
+
+*{
+-mz-box-sizing : border-box;
+box-sizing : border-box;
+}
